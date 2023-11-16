@@ -3,13 +3,7 @@ pulic class Hello{
         System.out.println('VS code is awesome');
         greeting('Rony');
     }
-    public static void display(String name){
-        System.out.println('welcome', name)
-    }
-    public static void another(String name){
-        System.out.println('welcome', name)
-    }
-    public static int sqr(int x){
-        return x*x
-    }
+ public static void message(){
+    System.out.println('Hooorray... now we are able to contribute');
+ }
 }
